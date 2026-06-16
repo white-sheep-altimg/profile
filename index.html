@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altered-Image — AI/LLM・半導体・Web agnaite Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Altered-Image</a>
+      <nav class="nav" id="nav">
+        <a href="#profile" class="nav-link">Profile</a>
+        <a href="#expertise" class="nav-link">Expertise</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <button class="nav-toggle" id="navToggle" aria-label="メニュー">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-subtitle">40+ Years of Software Excellence</p>
+        <h1 class="hero-title">ALTERED IMAGE<br><span class="hero-accent">AI / LLM</span> Engineer</h1>
+        <p class="hero-desc">生成AI・ローカルLLM、半導体製造装置、組込み、Web、モバイルを横断できるエンジニア。要件定義から保守運用まで一貫して担当可能。</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">プロジェクトを見る</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-placeholder">
+	  <img src="./images/working.jpg" width="400px" height="400px"></img>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,80 1440,60 L1440,120 L0,120 Z" fill="#f8fafc"></path></svg>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon">&#9889;</div>
+        <div class="stat-number" data-target="40">0</div>
+        <div class="stat-label">years experience</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">&#128187;</div>
+        <div class="stat-number" data-target="24">0</div>
+        <div class="stat-label">projects delivered</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">&#129302;</div>
+        <div class="stat-number" data-target="20">0</div>
+        <div class="stat-label">programming languages</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">&#127759;</div>
+        <div class="stat-number" data-target="14">0</div>
+        <div class="stat-label">domains mastered</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profile -->
+  <section class="profile" id="profile">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">01</span> Profile</h2>
+      <div class="profile-grid">
+        <div class="profile-image-placeholder">
+	  <img src="./images/IMG_2290.jpeg" width="400px" height="400px">
+        </div>
+        <div class="profile-content">
+          <h3 class="profile-name">Altered-Image<span class="profile-tag">オルタード・イメージ</span></h3>
+          <p class="profile-headline">生成AI/ローカルLLM、半導体製造装置、組込み、Web、モバイルを横断できる40年以上経験</p>
+          <ul class="profile-details">
+            <li><strong> desired roles</strong> SE / PG / EM / PM</li>
+          </ul>
+          <p class="profile-summary">40年以上のソフトウェア開発経験を持ち、要件定義、基本設計、詳細設計、製造、単体テスト、結合テスト、総合テスト、保守運用まで一貫して担当可能。近年は生成AI、ローカルLLM/SLM、RAG、LoRA、ベクトル検索、音声AI、マルチモーダルAI基盤に注力。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise -->
+  <section class="expertise" id="expertise">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">02</span> Expertise</h2>
+      <div class="expertise-categories">
+        <div class="expertise-card active" data-tab="ai">
+          <div class="expertise-icon">&#129302;</div>
+          <h3 class="expertise-name">AI / LLM</h3>
+          <div class="expertise-tabs">
+            <button class="tab-btn active" data-tab="ai">生成AI</button>
+            <button class="tab-btn" data-tab="semi">半導体</button>
+            <button class="tab-btn" data-tab="web">Web / DX</button>
+            <button class="tab-btn" data-tab="embedded">組込み</button>
+          </div>
+          <div class="tab-content active" id="tab-ai">
+            <ul class="expertise-list">
+              <li>ローカルLLM/SLMの設計・開発</li>
+              <li>RAGアーキテクチャ設計</li>
+              <li>LoRAファインチューニング</li>
+              <li>ベクトル検索システム構築</li>
+              <li>音声AI連携 (STT/TTS)</li>
+              <li>エージェンティックAI</li>
+              <li>ハーネス設計</li>
+              <li>プロンプト最適化</li>
+            </ul>
+            <div class="expertise-visual-placeholder">
+	      <img src="./images/RAG.png" width="700px">
+            </div>
+          </div>
+          <div class="tab-content" id="tab-semi">
+            <ul class="expertise-list">
+              <li>半導体製造装置制御</li>
+              <li>SECS/HSMS/GEM規格</li>
+              <li>搬送制御・プロセス制御</li>
+              <li>画像処理・パターンマッチング</li>
+              <li>オーディン及びスクラバー制御</li>
+              <li>塗布現像装置制御</li>
+              <li>デバイスドライバ開発</li>
+              <li>回路設計</li>
+            </ul>
+            <div class="expertise-visual-placeholder">
+	      <img src="./images/Semi.png" width="700px">
+            </div>
+          </div>
+          <div class="tab-content" id="tab-web">
+            <ul class="expertise-list">
+              <li>Java / Spring Boot</li>
+              <li>TypeScript / JavaScript</li>
+              <li>Kintone / Salesforce DX</li>
+              <li>クラウド構成設計 (AWS/Azure/GCP)</li>
+              <li>CI/CD パイプライン</li>
+              <li>ノンプログラミング環境</li>
+              <li>RPA 自動化</li>
+              <li>マイクロサービスアーキテクチャ</li>
+            </ul>
+            <div class="expertise-visual-placeholder">
+	      <img src="./images/WebDX.png" width="700px">
+            </div>
+          </div>
+          <div class="tab-content" id="tab-embedded">
+            <ul class="expertise-list">
+              <li>RTOS / VxWorks / μITRON</li>
+              <li>C / C++ / Assembler</li>
+              <li>VHDL / Verilog (FPGA)</li>
+              <li>SoC設計・回路設計</li>
+              <li>デバイスドライバ</li>
+              <li>画像処理・信号処理</li>
+              <li>温度制御・センサ制御</li>
+              <li>iBeacon / IoT</li>
+            </ul>
+            <div class="expertise-visual-placeholder">
+	      <img src="./images/IIES.png" width="700px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">03</span> Projects</h2>
+      <p class="section-desc">40年間のキャリアの中で手がけた主要プロジェクト</p>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- P001 -->
+        <div class="project-card" data-domain="ai">
+          <div class="project-badge">AI / LLM</div>
+          <div class="project-period">2024.04 — 2026.05</div>
+          <h3 class="project-title">GPT型LLM/SLMを利用した<br>ローカルAI基盤の設計・開発</h3>
+          <p class="project-desc">モデル選定、LoRA追加学習、RAG設計、ベクトル検索、プロンプト最適化、ハーネス設計、専用UI、STT/TTSによるマルチモーダルインタフェース。</p>
+          <div class="project-tags">
+            <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">LangChain</span><span class="tag">FAISS</span><span class="tag">Chroma</span><span class="tag">vLLM</span><span class="tag">llama.cpp</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/LocalAI01.png" width="300px">
+          </div>
+        </div>
+        <!-- P002 -->
+        <div class="project-card" data-domain="semi">
+          <div class="project-badge semi">半導体</div>
+          <div class="project-period">2024.10 — 2024.12</div>
+          <h3 class="project-title">半導体製造工場向け<br>MC開発</h3>
+          <p class="project-desc">新規半導体製造工場向け工程管理・製品管理システム。SEMI/GEM、PMBOK、UML、RDRA2.0を用いた要件定義、基本設計。</p>
+          <div class="project-tags">
+            <span class="tag">SEMI</span><span class="tag">GEM</span><span class="tag">PMBOK</span><span class="tag">RDRA2.0</span><span class="tag">UML</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/SemiMC.png" width="300px">
+          </div>
+        </div>
+        <!-- P003 -->
+        <div class="project-card" data-domain="ai">
+          <div class="project-badge">AI / LLM</div>
+          <div class="project-period">2023.11 — 2024.03</div>
+          <h3 class="project-title">ローカルLLM<br>ファインチューニング（ワークベンチ）</h3>
+          <p class="project-desc">高セキュリティ環境でのLLM業務利用検証。LoRA、RAG、長期記憶システム、ワークベンチの開発。</p>
+          <div class="project-tags">
+            <span class="tag">Gemma</span><span class="tag">Qwen</span><span class="tag">LoRA</span><span class="tag">MLX</span><span class="tag">LlamaIndex</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/LocalAI02.png" width="300px">
+          </div>
+        </div>
+        <!-- P004 -->
+        <div class="project-card" data-domain="medical">
+          <div class="project-badge medical">医療</div>
+          <div class="project-period">2022.04 — 2022.12</div>
+          <h3 class="project-title">電子カルテ<br>要求定義・要件定義</h3>
+          <p class="project-desc">中規模以上の病院向け電子カルテ。HL7-FHIR、UI/UX検討、ワイアフレーム、法律・セキュリティ面のインフラ調査。</p>
+          <div class="project-tags">
+            <span class="tag">HL7-FHIR</span><span class="tag">IPAセキュリティ</span><span class="tag">UI/UX</span><span class="tag">マイクロサービス</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/EMRS.png" width="300px">
+          </div>
+        </div>
+        <!-- P005 -->
+        <div class="project-card" data-domain="web">
+          <div class="project-badge web">Web</div>
+          <div class="project-period">2021.06 — 2022.02</div>
+          <h3 class="project-title">人材募集Webページ<br>新規開発</h3>
+          <p class="project-desc">人材紹介・派遣会社のレガシーシステム刷新。Spring Boot、Thymeleaf、TypeScript、エンティティ自動作成ツール。</p>
+          <div class="project-tags">
+            <span class="tag">Spring Boot</span><span class="tag">TypeScript</span><span class="tag">Oracle</span><span class="tag">CI/CD</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/JobPostings.png" width="300px">
+          </div>
+        </div>
+        <!-- P008 -->
+        <div class="project-card" data-domain="iot">
+          <div class="project-badge iot">IoT</div>
+          <div class="project-period">2020.10 — 2021.05</div>
+          <h3 class="project-title">iBeacon<br>屋内ナビゲーション開発</h3>
+          <p class="project-desc">iBeaconを利用したAndroidアプリとSoC設計。商品情報自動表示、地図アプリ連携、閉鎖空間内ナビゲーション。</p>
+          <div class="project-tags">
+            <span class="tag">iBeacon</span><span class="tag">Android</span><span class="tag">SoC</span><span class="tag">RTOS</span><span class="tag">VHDL</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/iBeacon01.png" width="300px">
+          </div>
+        </div>
+        <!-- P009 -->
+        <div class="project-card" data-domain="mobile">
+          <div class="project-badge mobile">Mobile</div>
+          <div class="project-period">2009.10 — 2015.02</div>
+          <h3 class="project-title">スマートフォンアプリ<br>画像処理・音声認識・医療補助</h3>
+          <p class="project-desc">iOS/Android向け画像処理、音声認識、FFT、ウェーブレット変換、心音解析などの医療補助システム。</p>
+          <div class="project-tags">
+            <span class="tag">iOS</span><span class="tag">Android</span><span class="tag">Objective-C</span><span class="tag">FFT</span><span class="tag">心音解析</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/MedicalAssistance.png" width="300px">
+          </div>
+        </div>
+        <!-- P015 -->
+        <div class="project-card" data-domain="framework">
+          <div class="project-badge framework">Framework</div>
+          <div class="project-period">2002.06 — 2006.03</div>
+          <h3 class="project-title">マルチプラットフォーム<br>・フレームワーク</h3>
+          <p class="project-desc">Windows/macOS/Linux対応のマルチプラットフォーム・フレームワーク。GUI、通信、画像処理、デバイスドライバ。</p>
+          <div class="project-tags">
+            <span class="tag">C++</span><span class="tag">Java</span><span class="tag">X11</span><span class="tag">Wayland</span><span class="tag">TCP/IP</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/AFW.png" width="300px">
+          </div>
+        </div>
+        <!-- P022 -->
+        <div class="project-card" data-domain="semi">
+          <div class="project-badge semi">半導体</div>
+          <div class="project-period">1987.10 — 1992.04</div>
+          <h3 class="project-title">新型線縮小露光装置<br>・縮小露光装置改修</h3>
+          <p class="project-desc">半導体露光装置の搬送制御、プロセス制御、画像処理、パターンマッチング、オートフォーカス、オートアライメント。</p>
+          <div class="project-tags">
+            <span class="tag">露光装置</span><span class="tag">パターンマッチング</span><span class="tag">オートフォーカス</span><span class="tag">HP-UX</span>
+          </div>
+          <div class="project-visual-placeholder">
+	    <img src="./images/Stepper.png" width="300px">
+          </div>
+        </div>
+      </div>
+
+      <!-- Domain filter -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI / LLM</button>
+        <button class="filter-btn" data-filter="semi">半導体</button>
+        <button class="filter-btn" data-filter="medical">医療</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="iot">IoT</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="framework">Framework</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">04</span> Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-group-title">&#128394; Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="tag skill-tag">Python</span>
+            <span class="tag skill-tag">Java</span>
+            <span class="tag skill-tag">JavaScript</span>
+            <span class="tag skill-tag">TypeScript</span>
+            <span class="tag skill-tag">C</span>
+            <span class="tag skill-tag">C++</span>
+            <span class="tag skill-tag">Swift</span>
+            <span class="tag skill-tag">Kotlin</span>
+            <span class="tag skill-tag">C#</span>
+            <span class="tag skill-tag">Go</span>
+            <span class="tag skill-tag">Ruby</span>
+            <span class="tag skill-tag">Dart</span>
+            <span class="tag skill-tag">Clojure</span>
+            <span class="tag skill-tag">Assembler</span>
+            <span class="tag skill-tag">Lisp</span>
+            <span class="tag skill-tag">PHP</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">&#129717; Frameworks</h3>
+          <div class="skill-tags">
+            <span class="tag skill-tag">Spring</span>
+            <span class="tag skill-tag">Spring Boot</span>
+            <span class="tag skill-tag">React</span>
+            <span class="tag skill-tag">Angular</span>
+            <span class="tag skill-tag">Vue</span>
+            <span class="tag skill-tag">Django</span>
+            <span class="tag skill-tag">Flask</span>
+            <span class="tag skill-tag">Node.js</span>
+            <span class="tag skill-tag">.NET</span>
+            <span class="tag skill-tag">Rails</span>
+            <span class="tag skill-tag">Hibernate</span>
+            <span class="tag skill-tag">Jest</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">&#129302; AI / LLM</h3>
+          <div class="skill-tags">
+            <span class="tag skill-tag">RAG</span>
+            <span class="tag skill-tag">LoRA</span>
+            <span class="tag skill-tag">Fine-tuning</span>
+            <span class="tag skill-tag">Vector Search</span>
+            <span class="tag skill-tag">Prompt Engineering</span>
+            <span class="tag skill-tag">Agentic AI</span>
+            <span class="tag skill-tag">STT / TTS</span>
+            <span class="tag skill-tag">PyTorch</span>
+            <span class="tag skill-tag">Transformers</span>
+            <span class="tag skill-tag">LangChain</span>
+            <span class="tag skill-tag">LlamaIndex</span>
+            <span class="tag skill-tag">Gemma</span>
+            <span class="tag skill-tag">Qwen</span>
+            <span class="tag skill-tag">vLLM</span>
+            <span class="tag skill-tag">llama.cpp</span>
+            <span class="tag skill-tag">MLX</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">&#128451; Infrastructure</h3>
+          <div class="skill-tags">
+            <span class="tag skill-tag">Docker</span>
+            <span class="tag skill-tag">Kubernetes</span>
+            <span class="tag skill-tag">AWS</span>
+            <span class="tag skill-tag">Azure</span>
+            <span class="tag skill-tag">GCP</span>
+            <span class="tag skill-tag">NGINX</span>
+            <span class="tag skill-tag">Ansible</span>
+            <span class="tag skill-tag">CI/CD</span>
+            <span class="tag skill-tag">Salesforce</span>
+            <span class="tag skill-tag">Kintone</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">&#128497; Databases</h3>
+          <div class="skill-tags">
+            <span class="tag skill-tag">PostgreSQL</span>
+            <span class="tag skill-tag">MySQL</span>
+            <span class="tag skill-tag">Oracle</span>
+            <span class="tag skill-tag">MongoDB</span>
+            <span class="tag skill-tag">OpenSearch</span>
+            <span class="tag skill-tag">FAISS</span>
+            <span class="tag skill-tag">Chroma</span>
+            <span class="tag skill-tag">SQLite</span>
+            <span class="tag skill-tag">SQL Server</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title">&#128203; Methodology</h3>
+          <div class="skill-tags">
+            <span class="tag skill-tag">PMBOK</span>
+            <span class="tag skill-tag">Agile</span>
+            <span class="tag skill-tag">Scrum</span>
+            <span class="tag skill-tag">UML</span>
+            <span class="tag skill-tag">Mermaid</span>
+            <span class="tag skill-tag">RDRA2.0</span>
+            <span class="tag skill-tag">TDD</span>
+            <span class="tag skill-tag">オブジェクト指向モデリング</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills visual -->
+      <div class="skills-visual">
+        <div class="skills-visual-placeholder">
+	  <img src="./images/SkillMap.png" width="800px">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Timeline -->
+  <section class="timeline">
+    <div class="container">
+      <h2 class="section-title"><span class="section-num">05</span> Career</h2>
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2017 — Present</span>
+            <h4>フリーランス</h4>
+            <p>AI/LLM、半導体、Web、組込みなど多岐にわたるプロジェクトに従事</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2014 — 2017</span>
+            <h4>人材派遣・開発受託 — 技術部長・営業課長</h4>
+            <p>技術部の統括、営業部門のマネージメント</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2012 — 2014</span>
+            <h4>システムハウス — 東京支店長</h4>
+            <p>東京拠点の運営管理、プロジェクト遂行</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2002 — 2012</span>
+            <h4>オルタード・イメージ株式会社 — 設立</h4>
+            <p>マルチプラットフォーム・フレームワークを開発。現在も稼働する基盤に発展</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">1994 — 2002</span>
+            <h4>半導体製造装置メーカー — ソフトウェア技術部</h4>
+            <p>半導体製造装置制御、組み込みシステム開発</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">1987 — 1994</span>
+            <h4>システムハウス／ベンチャー企業</h4>
+            <p>半導体露光装置、GPSシステム、人工知能エンジン開発</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">Altered-Image / Hiroaki Sato</span>
+        <p class="footer-copy">&copy; 2026 Hiroaki Sato. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <p class="footer-tagline">AI/LLM &middot; 半導体 &middot; Web &middot; 組込み &middot; 40+ years experience</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
