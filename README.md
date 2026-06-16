@@ -1,2 +1,2 @@
 # profile
-Altered-Image
+Altered-Image（オルタード・イメージ）の紹介です
