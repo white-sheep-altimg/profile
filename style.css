@@ -115,12 +115,17 @@ ul {
 }
 
 .logo {
-  font-size: 1.35rem;
-  font-weight: 700;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  display: inline-block;
+  line-height: 0;
+  background: #0a0e1a;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.logo img {
+  width: 200px;
+  height: 80px;
+  display: block;
 }
 
 .nav {
